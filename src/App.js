@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Experience from "./pages/Experience";
+import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This is my website!
-        </p>
-        <p>
-          I don't really know what I am doing here
-        </p>
-        <button className='btn btn-secondary'>
-          Click here!
-        </button>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </Router>
   );
 }
 
