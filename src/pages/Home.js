@@ -13,10 +13,6 @@ export default function Home() {
   };
 
   const navigate = useNavigate();
-  const experience = () => {
-    navigate("/experience");
-  };
-
   const projects = () => {
     navigate("/projects");
   };
@@ -40,9 +36,6 @@ export default function Home() {
         <p id="name">{text}</p>
         <button class="Home-button" onClick={resume}>
           Resume
-        </button>
-        <button class="Home-button" onClick={experience}>
-          Work Experiences
         </button>
         <button class="Home-button" onClick={projects}>
           Projects

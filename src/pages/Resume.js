@@ -2,12 +2,10 @@ import React from "react";
 
 import "./Resume.css";
 
-const Resume = () => {
+export default function Resume() {
   return (
-    <div>
+    <div className="Resume">
       <h1>Resume</h1>
     </div>
   );
-};
-
-export default Resume;
+}
