@@ -1,26 +1,34 @@
 .Home {
   text-align: center;
+  background-color: #282c34;
 }
 
 .Home-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#name {
   font-size: calc(50px + 2vmin);
   font-weight: bold;
   color: white;
   font-family: monospace;
 }
 
-button {
+.Home-button {
+  transition: text-decoration 0.3s;
   background-color: transparent;
   color: grey;
   border: none;
   box-shadow: none;
-  font-size: 30px;
+  font-size: calc(15px + 2vmin);
   font-family: monospace;
   padding-bottom: 20px;
+}
+
+.Home-button:hover {
+  text-decoration: underline;
 }

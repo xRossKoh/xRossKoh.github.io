@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Route, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import "./Home.css";
 
-function Home() {
+export default function Home() {
   const [text, setText] = useState("");
   const [fullText, setFullText] = useState("Koh Meng Kiat, Kenneth");
   const [index, setIndex] = useState(0);
@@ -37,11 +37,18 @@ function Home() {
   return (
     <div className="Home">
       <header className="Home-header">
-        <p>{text}</p>
-        <button onClick={resume}>Resume</button>
-        <button onClick={experience}>Work Experiences</button>
-        <button onClick={projects}>Projects</button>
+        <p id="name">{text}</p>
+        <button class="Home-button" onClick={resume}>
+          Resume
+        </button>
+        <button class="Home-button" onClick={experience}>
+          Work Experiences
+        </button>
+        <button class="Home-button" onClick={projects}>
+          Projects
+        </button>
         <button
+          class="Home-button"
           role="link"
           onClick={() =>
             openNewTab(
@@ -52,6 +59,7 @@ function Home() {
           LinkedIn
         </button>
         <button
+          class="Home-button"
           role="link"
           onClick={() => openNewTab("https://github.com/xRossKoh")}
         >
@@ -61,5 +69,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

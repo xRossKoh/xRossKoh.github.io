@@ -1,0 +1,45 @@
+.ProjectsCard {
+  display: span;
+  align-items: center;
+  width: 75%;
+  margin: 0px auto 40px auto;
+  padding: 15px;
+  font-family: monospace;
+  color: white;
+  border: 2px solid grey;
+  border-radius: 15px;
+}
+
+.ProjectsCard-header {
+  display: flex;
+  align-items: center;
+}
+
+.ProjectsCard-body {
+  display: flex;
+  align-items: left;
+}
+
+#project-title {
+  display: block;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+#project-subtitle {
+  display: block;
+  font-weight: none;
+  font-size: 20px;
+  margin: 0;
+}
+
+#project-date {
+  display: block;
+  text-align: right;
+  font-size: 20px;
+}
+
+#project-desc {
+  font-size: 20px;
+}
