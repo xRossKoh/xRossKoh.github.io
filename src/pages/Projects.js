@@ -13,36 +13,6 @@ export default function Projects() {
           subtitle="Computer Engineering Capstone Project"
           date="Jan 2023 - Apr 2023"
         ></ProjectsCard>
-        <ProjectsCard
-          title="2-Player Laser Tag"
-          subtitle="Computer Engineering Capstone Project"
-          date="Jan 2023 - Apr 2023"
-        ></ProjectsCard>
-        <ProjectsCard
-          title="2-Player Laser Tag"
-          subtitle="Computer Engineering Capstone Project"
-          date="Jan 2023 - Apr 2023"
-        ></ProjectsCard>
-        <ProjectsCard
-          title="2-Player Laser Tag"
-          subtitle="Computer Engineering Capstone Project"
-          date="Jan 2023 - Apr 2023"
-        ></ProjectsCard>
-        <ProjectsCard
-          title="2-Player Laser Tag"
-          subtitle="Computer Engineering Capstone Project"
-          date="Jan 2023 - Apr 2023"
-        ></ProjectsCard>
-        <ProjectsCard
-          title="2-Player Laser Tag"
-          subtitle="Computer Engineering Capstone Project"
-          date="Jan 2023 - Apr 2023"
-        ></ProjectsCard>
-        <ProjectsCard
-          title="2-Player Laser Tag"
-          subtitle="Computer Engineering Capstone Project"
-          date="Jan 2023 - Apr 2023"
-        ></ProjectsCard>
       </div>
     </div>
   );
