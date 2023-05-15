@@ -10,12 +10,14 @@ export default function EducationCard(props) {
         <FaBookOpen /> Education
       </h1>
       <div>
-        <p>Bachelor of Engineering (Computer Engineering)</p>
-        <p>National University of Singapore</p>
-        <p>
+        <h2>Bachelor of Engineering (Computer Engineering)</h2>
+        <h3 className="EducationCard-subtitle">
+          National University of Singapore
+        </h3>
+        <h3 className="EducationCard-subtitle">
           <FaCalendar /> Aug 2020 - May 2023
-        </p>
-        <ul>
+        </h3>
+        <ul className="EducationCard-body">
           <li>
             Completed as part of the Engineering Scholars Programme offered by
             NUS Engineering.
@@ -24,12 +26,14 @@ export default function EducationCard(props) {
       </div>
       <hr class="solid"></hr>
       <div>
-        <p>Master of Science (Management of Technology and Innovation)</p>
-        <p>National University of Singapore</p>
-        <p>
+        <h2>Master of Science (Management of Technology and Innovation)</h2>
+        <h3 className="EducationCard-subtitle">
+          National University of Singapore
+        </h3>
+        <h3 className="EducationCard-subtitle">
           <FaCalendar /> Aug 2023 - Dec 2024 (tentative)
-        </p>
-        <ul>
+        </h3>
+        <ul className="EducationCard-body">
           <li>
             Specialization in Data Analytics for Innovation Management (DAIM).
           </li>{" "}

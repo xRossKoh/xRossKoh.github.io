@@ -10,7 +10,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
 }
 
 #title {
@@ -22,12 +22,12 @@
 
 #personal-info-section {
   color: white;
-  size: 20px;
+  size: 18px;
   display: flex;
   flex-direction: row;
 }
 
 .personal-info {
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }

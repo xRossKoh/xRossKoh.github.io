@@ -2,6 +2,7 @@ import React from "react";
 import SelfIntroCard from "../components/SelfIntroCard";
 import EducationCard from "../components/EducationCard";
 import ExperienceCard from "../components/ExperienceCard";
+import SkillsCard from "../components/SkillsCard";
 
 import { FaPhone, FaEnvelope, FaCity } from "react-icons/fa";
 
@@ -26,6 +27,7 @@ export default function Resume() {
         <SelfIntroCard />
         <EducationCard />
         <ExperienceCard />
+        <SkillsCard />
       </div>
     </div>
   );

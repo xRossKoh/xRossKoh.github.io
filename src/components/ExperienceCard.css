@@ -8,3 +8,16 @@
   width: 100%;
   margin: 0px auto 5vh auto;
 }
+
+.ExperienceCard-subtitle {
+  font-size: 17px;
+}
+
+.ExperienceCard-body {
+  font-size: 15px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

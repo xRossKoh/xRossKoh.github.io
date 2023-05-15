@@ -11,12 +11,14 @@ export default function ExperienceCard() {
         <FaBriefcase /> Work Experience
       </h1>
       <div>
-        <p>Full-Stack Engineer Intern</p>
-        <p>Superton, Shenzhen, Guangdong, China</p>
-        <p>
+        <h2>Full-Stack Engineer Intern</h2>
+        <h3 className="ExperienceCard-subtitle">
+          Superton, Shenzhen, Guangdong, China
+        </h3>
+        <h3 className="ExperienceCard-subtitle">
           <FaCalendar /> Dec 2021 - July 2022
-        </p>
-        <ul>
+        </h3>
+        <ul className="ExperienceCard-body">
           <li>
             Conducted research on dropshipping processes and implemented the
             service on the company website, bringing in 2 online stores as
