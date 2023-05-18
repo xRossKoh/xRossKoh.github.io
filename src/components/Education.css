@@ -1,0 +1,19 @@
+.Education__container {
+  margin-top: 3vh;
+}
+
+.Education__title {
+  font-size: 24px;
+}
+
+.Education__subtitle {
+  font-size: 20px;
+}
+
+.Education__date {
+  margin: 2vh 0;
+}
+
+.Education__body {
+  font-size: 18px;
+}
