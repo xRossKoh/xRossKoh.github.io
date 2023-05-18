@@ -1,28 +1,42 @@
-.ProjectsCard {
-  display: span;
-  align-items: center;
-  width: 75%;
-  margin: 0px auto 40px auto;
-  padding: 15px;
-  font-family: monospace;
+.ProjectsCard__button {
+  background-color: transparent;
   color: white;
   border: 2px solid grey;
-  border-radius: 15px;
+  border-radius: 10px;
+  box-shadow: none;
+  font-size: calc(15px + 2vmin);
+  font-family: monospace;
+  width: 100%;
+  padding: 10px 20px;
+  transition: color 0.2s, border 0.2s, background-color 0.2s;
 }
 
-.ProjectsCard-header {
+.ProjectsCard__button:hover {
+  color: black;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.ProjectsCard:hover {
+  border: 2px solid lime;
+}
+
+.ProjectsCard__header {
   display: flex;
   align-items: center;
+  margin-bottom: 2vh;
 }
 
-.ProjectsCard-header-desc {
+.ProjectsCard__header__desc {
+  text-align: left;
   float: left;
-  width: 60%;
+  width: 65%;
 }
 
-.ProjectsCard-header-date {
+.ProjectsCard__header__date {
+  text-align: right;
   float: right;
-  width: 40%;
+  width: 35%;
 }
 
 .ProjectsCard-body {
@@ -31,7 +45,7 @@
 }
 
 #project-title {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bolder;
   margin: 0;
 }
@@ -43,10 +57,12 @@
 }
 
 #project-date {
-  text-align: right;
   font-size: 20px;
+  margin: 0;
 }
 
 #project-desc {
-  font-size: 20px;
+  font-size: 18px;
+  margin: 0;
+  text-align: justify;
 }

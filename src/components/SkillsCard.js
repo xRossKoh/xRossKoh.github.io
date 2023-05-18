@@ -1,16 +1,18 @@
 import React from "react";
 import SkillsProgressBar from "./SkillsProgressBar";
 
-import { FaTools } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTools } from "@fortawesome/free-solid-svg-icons";
 
 import "./SkillsCard.css";
 
 export default function SkillsCard() {
   return (
     <div className="SkillsCard">
-      <h1>
-        <FaTools /> Skills
-      </h1>
+      <div id="skills-card__title">
+        <FontAwesomeIcon icon={faTools} size="2x" />
+        <h1 className="SkillsCard__title">Skills</h1>
+      </div>
       <div className="grid-container">
         <SkillsProgressBar
           alt="Cpp"

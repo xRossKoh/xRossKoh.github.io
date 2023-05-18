@@ -1,15 +1,28 @@
 .SkillsCard {
   border: 2px solid grey;
+  border-radius: 10px;
   color: white;
-  display: span;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   font-family: monospace;
-  padding: 20px;
+  padding: 3vh 2vw;
   width: 100%;
-  margin: 0px auto 5vh auto;
+}
+
+.SkillsCard__title {
+  font-size: 28px;
+}
+
+#skills-card__title {
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
 }
 
 .grid-container {
   display: grid;
+  align-self: center;
   grid-template-columns: auto auto auto;
 }

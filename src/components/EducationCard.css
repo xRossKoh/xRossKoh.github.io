@@ -1,20 +1,44 @@
 .EducationCard {
   border: 2px solid grey;
+  border-radius: 10px;
   color: white;
-  display: span;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   font-family: monospace;
-  padding: 20px;
+  padding: 3vh 2vw;
   width: 100%;
-  margin: 0px auto 5vh auto;
 }
 
-.EducationCard-subtitle {
-  font-size: 17px;
+.EducationCard__title {
+  font-size: 28px;
 }
 
-.EducationCard-body {
-  font-size: 15px;
+.EducationCard--with-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
+}
+
+.education__container {
+  margin-top: 3vh;
+}
+
+.education__title {
+  font-size: 24px;
+}
+
+.education__subtitle {
+  font-size: 20px;
+}
+
+.education__date {
+  margin: 2vh 0;
+}
+
+.education__body {
+  font-size: 18px;
 }
 
 hr {

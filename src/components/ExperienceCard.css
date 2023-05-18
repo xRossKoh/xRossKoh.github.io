@@ -1,18 +1,42 @@
 .ExperienceCard {
   border: 2px solid grey;
+  border-radius: 10px;
   color: white;
-  display: span;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   font-family: monospace;
-  padding: 20px;
+  padding: 3vh 2vw;
   width: 100%;
-  margin: 0px auto 5vh auto;
 }
 
-.ExperienceCard-subtitle {
-  font-size: 17px;
+.ExperienceCard__title {
+  font-size: 28px;
 }
 
-.ExperienceCard-body {
-  font-size: 15px;
+.ExperienceCard--with-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
+}
+
+.experience__container {
+  margin-top: 3vh;
+}
+
+.experience__title {
+  font-size: 24px;
+}
+
+.experience__subtitle {
+  font-size: 20px;
+}
+
+.experience__date {
+  margin: 2vh 0;
+}
+
+.experience__body {
+  font-size: 18px;
 }

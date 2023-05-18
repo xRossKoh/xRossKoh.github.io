@@ -1,8 +1,7 @@
 .Projects {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   background-color: #282c34;
 }
 
@@ -13,10 +12,8 @@
   color: white;
 }
 
-.Projects-cards {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
+.Projects__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
 }

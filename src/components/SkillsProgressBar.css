@@ -9,25 +9,25 @@
 
 #skills-image {
   float: left;
-  width: 25%;
+  width: 40%;
   margin-right: 1vw;
 }
 
 .progress-bar {
   float: right;
-  width: 75%;
-  align-items: center;
+  width: 60%;
   text-align: center;
 }
 
 .progress-bar__text {
   font-size: 15px;
+  margin-bottom: 1vh;
 }
 
 .progress-bar__container {
   height: 1.2vh;
   width: 100%;
-  background-color: grey;
+  background-color: darkgray;
   border-radius: 0.5vh;
   margin: 50;
 }
@@ -35,20 +35,20 @@
 .progress-bar__filler--one {
   height: 100%;
   width: 33.3%;
-  background-color: orange;
+  background-color: grey;
   border-radius: inherit;
 }
 
 .progress-bar__filler--two {
   height: 100%;
   width: 66.6%;
-  background-color: yellow;
+  background-color: lightgrey;
   border-radius: inherit;
 }
 
 .progress-bar__filler--three {
   height: 100%;
   width: 100%;
-  background-color: lime;
+  background-color: white;
   border-radius: inherit;
 }

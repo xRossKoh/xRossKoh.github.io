@@ -1,24 +1,29 @@
 import React from "react";
 
-import { FaCalendar, FaBriefcase } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase, faCalendar } from "@fortawesome/free-solid-svg-icons";
 
 import "./ExperienceCard.css";
 
 export default function ExperienceCard() {
   return (
     <div className="ExperienceCard">
-      <h1>
-        <FaBriefcase /> Work Experience
-      </h1>
-      <div>
-        <h2>Full-Stack Engineer Intern</h2>
-        <h3 className="ExperienceCard-subtitle">
+      <div className="ExperienceCard--with-icon">
+        <FontAwesomeIcon icon={faBriefcase} size="2x" />
+        <h1 className="ExperienceCard__title">Work Experience</h1>
+      </div>
+      <div className="experience__container">
+        <h2 className="experience__title">Full-Stack Engineer Intern</h2>
+        <h3 className="experience__subtitle">
           Superton, Shenzhen, Guangdong, China
         </h3>
-        <h3 className="ExperienceCard-subtitle">
-          <FaCalendar /> Dec 2021 - July 2022
-        </h3>
-        <ul className="ExperienceCard-body">
+        <div className="ExperienceCard--with-icon">
+          <FontAwesomeIcon icon={faCalendar} size="lg" />
+          <h3 className="experience__subtitle experience__date">
+            Dec 2021 - July 2022
+          </h3>
+        </div>
+        <ul className="experience__body">
           <li>
             Conducted research on dropshipping processes and implemented the
             service on the company website, bringing in 2 online stores as

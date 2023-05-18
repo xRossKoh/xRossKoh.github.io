@@ -10,10 +10,10 @@ export default function SkillsProgressBar(props) {
         <div className="progress-bar">
           <p className="progress-bar__text">
             {props.level === "one"
-              ? "Novice"
+              ? "Beginner"
               : props.level === "two"
-              ? "Proficient"
-              : "Expert"}
+              ? "Novice"
+              : "Proficient"}
           </p>
           <div className="progress-bar__container">
             <div className={`progress-bar__filler--${props.level}`}></div>
