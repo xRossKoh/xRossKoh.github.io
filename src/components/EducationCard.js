@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 
 import "./EducationCard.css";
-import Education from "./Education";
+import Tab from "./Tab";
 
 export default function EducationCard(props) {
   return (
@@ -13,7 +13,7 @@ export default function EducationCard(props) {
         <FontAwesomeIcon icon={faBookOpen} size="2x" />
         <h1 className="EducationCard__title">Education</h1>
       </div>
-      <Education
+      <Tab
         title="Master of Science (Management of Technology and Innovation)"
         subtitle={["National University of Singapore"]}
         date="Aug 2023 - Dec 2024 (tentative)"
@@ -21,7 +21,7 @@ export default function EducationCard(props) {
           "Specialization in Data Analytics for Innovation Management (DAIM)",
         ]}
       />
-      <Education
+      <Tab
         title="Bachelor of Engineering (Computer Engineering)"
         subtitle={["National University of Singapore"]}
         date="Aug 2020 - May 2023"

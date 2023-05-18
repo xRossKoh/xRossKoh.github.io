@@ -1,0 +1,25 @@
+.Tab__container {
+  margin-top: 3vh;
+}
+
+.Tab__title {
+  font-size: 24px;
+}
+
+.Tab__subtitle {
+  font-size: 20px;
+}
+
+.Tab__date {
+  margin: 2vh 0;
+}
+
+.Tab__body {
+  font-size: 18px;
+}
+
+.Tab--with-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
+}

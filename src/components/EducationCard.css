@@ -21,26 +21,6 @@
   gap: 0.8vw;
 }
 
-.education__container {
-  margin-top: 3vh;
-}
-
-.education__title {
-  font-size: 24px;
-}
-
-.education__subtitle {
-  font-size: 20px;
-}
-
-.education__date {
-  margin: 2vh 0;
-}
-
-.education__body {
-  font-size: 18px;
-}
-
 hr {
   margin-top: 20px;
   margin-bottom: 20px;

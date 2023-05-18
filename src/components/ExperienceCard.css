@@ -20,23 +20,3 @@
   align-items: center;
   gap: 0.8vw;
 }
-
-.experience__container {
-  margin-top: 3vh;
-}
-
-.experience__title {
-  font-size: 24px;
-}
-
-.experience__subtitle {
-  font-size: 20px;
-}
-
-.experience__date {
-  margin: 2vh 0;
-}
-
-.experience__body {
-  font-size: 18px;
-}
