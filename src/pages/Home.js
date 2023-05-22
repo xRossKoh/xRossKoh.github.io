@@ -18,7 +18,7 @@ export default function Home() {
   };
 
   const resume = () => {
-    navigate("resume");
+    navigate("/resume");
   };
 
   useEffect(() => {
