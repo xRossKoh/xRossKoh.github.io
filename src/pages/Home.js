@@ -32,16 +32,16 @@ export default function Home() {
 
   return (
     <div className="Home">
-      <header className="Home-header">
+      <header className="Home__header">
         <p id="name">{text}</p>
-        <button class="Home-button" onClick={resume}>
+        <button class="Home__button" onClick={resume}>
           Resume
         </button>
-        <button class="Home-button" onClick={projects}>
+        <button class="Home__button" onClick={projects}>
           Projects
         </button>
         <button
-          class="Home-button"
+          class="Home__button"
           role="link"
           onClick={() =>
             openNewTab(
@@ -52,7 +52,7 @@ export default function Home() {
           LinkedIn
         </button>
         <button
-          class="Home-button"
+          class="Home__button"
           role="link"
           onClick={() => openNewTab("https://github.com/xRossKoh")}
         >

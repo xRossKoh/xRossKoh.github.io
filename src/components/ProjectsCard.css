@@ -7,7 +7,7 @@
   font-size: calc(15px + 2vmin);
   font-family: monospace;
   width: 100%;
-  padding: 10px 20px;
+  padding: 1.5vh 1.5vw;
   transition: color 0.2s, border 0.2s, background-color 0.2s;
 }
 
@@ -45,24 +45,24 @@
 }
 
 #project-title {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bolder;
   margin: 0;
 }
 
 #project-subtitle {
   font-weight: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0;
 }
 
 #project-date {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0;
 }
 
 #project-desc {
-  font-size: 18px;
+  font-size: 1.1rem;
   margin: 0;
   text-align: justify;
 }

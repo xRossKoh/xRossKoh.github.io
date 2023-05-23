@@ -3,11 +3,11 @@
 }
 
 .Tab__title {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .Tab__subtitle {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .Tab__date {
@@ -15,7 +15,7 @@
 }
 
 .Tab__body {
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .Tab--with-icon {

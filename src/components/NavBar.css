@@ -10,11 +10,23 @@
 }
 
 .NavBar__title {
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .NavBar__buttons__container {
   display: flex;
   justify-content: space-evenly;
-  gap: 4vw;
+  gap: 2vw;
+}
+
+.NavBar__button {
+  background-color: transparent;
+  color: grey;
+  border: none;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+
+.NavBar__button:hover {
+  text-decoration: underline;
 }

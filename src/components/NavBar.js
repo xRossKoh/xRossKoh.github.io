@@ -17,14 +17,26 @@ export default function NavBar() {
     navigate("/resume");
   };
 
+  const home = () => {
+    navigate("/");
+  };
+
   return (
     <div>
       <nav className="NavBar">
-        <h1>Resume</h1>
+        <h1 className="NavBar__title">Koh Meng Kiat, Kenneth</h1>
         <div className="NavBar__buttons__container">
-          <button onClick={resume}>Resume</button>
-          <button onClick={projects}>Projects</button>
+          <button class="NavBar__button" onClick={home}>
+            Home
+          </button>
+          <button class="NavBar__button" onClick={resume}>
+            Resume
+          </button>
+          <button class="NavBar__button" onClick={projects}>
+            Projects
+          </button>
           <button
+            class="NavBar__button"
             role="link"
             onClick={() =>
               openNewTab(
@@ -35,6 +47,7 @@ export default function NavBar() {
             LinkedIn
           </button>
           <button
+            class="NavBar__button"
             role="link"
             onClick={() => openNewTab("https://github.com/xRossKoh")}
           >

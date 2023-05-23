@@ -14,7 +14,7 @@ export default function Resume() {
       <NavBar />
       <div className="Resume">
         <div id="main-body">
-          <h1 id="title">Koh Meng Kiat, Kenneth</h1>
+          <h1 id="title">Resume</h1>
           <SelfIntroCard />
           <EducationCard />
           <ExperienceCard />

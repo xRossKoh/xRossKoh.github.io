@@ -3,7 +3,7 @@
   background-color: #282c34;
 }
 
-.Home-header {
+.Home__header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
   font-family: monospace;
 }
 
-.Home-button {
+.Home__button {
   background-color: transparent;
   color: grey;
   border: none;
@@ -28,6 +28,6 @@
   padding-bottom: 20px;
 }
 
-.Home-button:hover {
+.Home__button:hover {
   text-decoration: underline;
 }

@@ -12,16 +12,11 @@
 }
 
 .EducationCard__title {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .EducationCard--with-icon {
   display: flex;
   align-items: center;
   gap: 0.8vw;
-}
-
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
