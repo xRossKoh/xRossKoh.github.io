@@ -20,6 +20,8 @@
   font-weight: bold;
   color: white;
   font-family: monospace;
+  padding: 0;
+  margin: 4vh 0 4vh 0;
 }
 
 .Home__button {
@@ -30,8 +32,17 @@
   font-size: calc(15px + 2vmin);
   font-family: monospace;
   padding-bottom: 20px;
+  transition: all 0.2s ease;
 }
 
 .Home__button:hover {
   text-decoration: underline;
+  color: white;
+}
+
+.Home__portrait {
+  top: 50;
+  left: 50;
+  height: 30vh;
+  border-radius: 50%;
 }

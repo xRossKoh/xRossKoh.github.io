@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import selfPortrait from "../img/self-portrait.jpg";
 
 import "./Home.css";
 
 export default function Home() {
   const [text, setText] = useState("");
-  const [fullText, setFullText] = useState("Koh Meng Kiat, Kenneth");
+  const [fullText, setFullText] = useState("Kenneth Koh");
   const [index, setIndex] = useState(0);
 
   const openNewTab = (url) => {
@@ -33,6 +34,11 @@ export default function Home() {
   return (
     <div className="Home">
       <header className="Home__header">
+        <img
+          class="Home__portrait"
+          alt="Self-portrait"
+          src={selfPortrait}
+        ></img>
         <p id="name">{text}</p>
         <button class="Home__button" onClick={resume}>
           Resume

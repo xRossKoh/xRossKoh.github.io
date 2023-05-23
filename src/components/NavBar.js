@@ -24,7 +24,7 @@ export default function NavBar() {
   return (
     <div>
       <nav className="NavBar">
-        <h1 className="NavBar__title">Koh Meng Kiat, Kenneth</h1>
+        <h1 className="NavBar__title">Kenneth Koh</h1>
         <div className="NavBar__buttons__container">
           <button class="NavBar__button" onClick={home}>
             Home
