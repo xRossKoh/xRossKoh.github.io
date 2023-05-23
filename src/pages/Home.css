@@ -1,6 +1,10 @@
 .Home {
   text-align: center;
   background-color: #282c34;
+  /* background: url("../img/self-portrait.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 75%; */
 }
 
 .Home__header {

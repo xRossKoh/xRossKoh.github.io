@@ -1,10 +1,16 @@
 import React from "react";
 
 import "./ProjectsCard.css";
+import { useNavigate } from "react-router-dom";
 
 export default function ProjectsCard(props) {
+  const navigate = useNavigate();
   const openNewTab = () => {
-    window.open(props.url, "_blank", "noreferrer");
+    if (props.url === "") {
+      navigate("/no-github");
+    } else {
+      window.open(props.url, "_blank", "noreferrer");
+    }
   };
 
   return (

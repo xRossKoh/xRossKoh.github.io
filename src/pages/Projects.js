@@ -37,7 +37,7 @@ export default function Projects() {
               title="Data Analysis and Machine Learning"
               subtitle="EE4211 Group Project"
               date="Aug 2021 - Dec 2021"
-              url="https://github.com/xRossKoh/cg4002-internal-comms"
+              url=""
               desc="Programmed a supervised machine learning model, with a model accuracy of 86%, using NumPy and scikit-learn libraries, to predict gas consumption in Austin, Texas based on a given dataset."
             />
             <ProjectsCard
