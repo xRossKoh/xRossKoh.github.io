@@ -17,6 +17,7 @@
 }
 
 .progress-bar__text {
+  color: #f0ebce;
   font-size: 1rem;
   margin-bottom: 1vh;
 }

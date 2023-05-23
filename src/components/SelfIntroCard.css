@@ -4,14 +4,14 @@
   align-items: center;
   font-size: 1.1rem;
   font-family: monospace;
-  color: white;
+  color: #f2efe0;
   text-align: justify;
   width: 100%;
 }
 
 .personal-info-section {
   width: 100%;
-  color: white;
+  color: #f2efe0;
   size: 1.1rem;
   display: flex;
   flex-direction: row;

@@ -1,7 +1,7 @@
 .ProjectsCard__button {
   background-color: transparent;
-  color: white;
-  border: 2px solid grey;
+  color: #f2efe0;
+  border: 2px solid #c5c5c9;
   border-radius: 10px;
   box-shadow: none;
   font-size: calc(15px + 2vmin);
@@ -12,13 +12,9 @@
 }
 
 .ProjectsCard__button:hover {
-  color: black;
-  border: 2px solid white;
-  background-color: white;
-}
-
-.ProjectsCard:hover {
-  border: 2px solid lime;
+  color: #282c34;
+  border: 2px solid #f2efe0;
+  background-color: #f2efe0;
 }
 
 .ProjectsCard__header {
