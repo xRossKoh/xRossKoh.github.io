@@ -1,7 +1,7 @@
 {
   "name": "personal_website",
   "version": "0.1.0",
-  "homepage": "https://xrosskoh.github.io/",
+  "homepage": "https://xrosskoh.github.io/personal-website",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
