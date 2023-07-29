@@ -13,10 +13,20 @@
   font-size: 2rem;
 }
 
+.NavBar__bars_button {
+  @media screen and (min-width: 900px) {
+    display: none;
+  }
+}
+
 .NavBar__buttons__container {
   display: flex;
   justify-content: space-evenly;
   gap: 2vw;
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
 }
 
 .NavBar__button {
