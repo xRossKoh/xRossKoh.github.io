@@ -25,7 +25,7 @@
 .progress-bar__container {
   height: 1.2vh;
   width: 100%;
-  background-color: darkgray;
+  background-color: #373c47;
   border-radius: 0.5vh;
   margin: 50;
 }
@@ -33,20 +33,20 @@
 .progress-bar__filler--one {
   height: 100%;
   width: 33.3%;
-  background-color: grey;
+  background-color: #f0ebce;
   border-radius: inherit;
 }
 
 .progress-bar__filler--two {
   height: 100%;
   width: 66.6%;
-  background-color: lightgrey;
+  background-color: #f0ebce;
   border-radius: inherit;
 }
 
 .progress-bar__filler--three {
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color: #f0ebce;
   border-radius: inherit;
 }

@@ -16,11 +16,13 @@ export default function Tab(props) {
         <FontAwesomeIcon icon={faCalendar} size="lg" />
         <h3 className="Tab__subtitle Tab__date">{props.date}</h3>
       </div>
-      <ul className="Tab__body">
-        {props.desc.map((desc) => (
-          <li>{desc}</li>
-        ))}
-      </ul>
+      {props.desc && (
+        <ul className="Tab__body">
+          {props.desc.map((desc) => (
+            <li>{desc}</li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

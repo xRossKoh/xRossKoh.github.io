@@ -26,6 +26,7 @@ export default function EducationCard(props) {
         subtitle={["National University of Singapore"]}
         date="Aug 2020 - May 2023"
         desc={[
+          "Graduated with Honours (Highest Distinction)",
           "Completed under the Engineering Scholars Programme offered by the NUS Faculty of Engineering",
         ]}
       />

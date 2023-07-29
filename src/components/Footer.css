@@ -1,0 +1,6 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  color: #f0ebce;
+}

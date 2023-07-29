@@ -15,6 +15,16 @@ export default function ExperienceCard() {
       </div>
       <Tab
         title="Full-Stack Engineer Intern"
+        subtitle={[
+          "Government of Singapore Investment Coorporation (GIC), Singapore",
+        ]}
+        date={"July 2023 - Present"}
+        desc={[
+          "Migration of existing web application's user interface to a standardised design using Next.js and Typescript.",
+        ]}
+      />
+      <Tab
+        title="Full-Stack Engineer Intern"
         subtitle={["Superton, Shenzhen, Guangdong, China"]}
         date="Dec 2021 - July 2022"
         desc={[

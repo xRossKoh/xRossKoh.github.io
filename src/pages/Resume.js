@@ -16,8 +16,8 @@ export default function Resume() {
         <div id="main-body">
           <h1 id="title">Resume</h1>
           <SelfIntroCard />
-          <EducationCard />
           <ExperienceCard />
+          <EducationCard />
           <SkillsCard />
         </div>
       </div>
