@@ -6,7 +6,7 @@
 }
 
 #title {
-  font-size: 3rem;
+  font-size: calc(10px + 2.5vh);
   font-weight: bold;
   font-family: monospace;
   color: f0ebce;
@@ -15,5 +15,5 @@
 .Projects__container {
   display: flex;
   flex-direction: column;
-  gap: 3vh;
+  gap: 1.5vh;
 }

@@ -16,7 +16,7 @@
 }
 
 #name {
-  font-size: calc(50px + 2vmin);
+  font-size: calc(10px + 5vh);
   font-weight: bold;
   color: #f2efe0;
   font-family: monospace;
@@ -29,7 +29,7 @@
   color: #e2bf84;
   border: none;
   box-shadow: none;
-  font-size: calc(15px + 2vmin);
+  font-size: calc(6px + 2.5vh);
   font-family: monospace;
   padding-bottom: 20px;
   transition: all 0.2s ease;

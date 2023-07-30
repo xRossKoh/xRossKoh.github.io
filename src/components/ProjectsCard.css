@@ -41,24 +41,24 @@
 }
 
 #project-title {
-  font-size: 1.5rem;
+  font-size: calc(15px + 0.5vw);
   font-weight: bolder;
   margin: 0;
 }
 
 #project-subtitle {
   font-weight: none;
-  font-size: 1.25rem;
+  font-size: calc(12.5px + 0.5vw);
   margin: 0;
 }
 
 #project-date {
-  font-size: 1.25rem;
+  font-size: calc(12.5px + 0.5vw);
   margin: 0;
 }
 
 #project-desc {
-  font-size: 1.1rem;
+  font-size: calc(10px + 0.5vw);
   margin: 0;
   text-align: justify;
 }

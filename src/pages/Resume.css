@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5vh;
+  gap: 1.5vh;
   width: 50%;
   margin: 5vh 0;
 
@@ -32,7 +32,7 @@
 }
 
 #title {
-  font-size: 3rem;
+  font-size: calc(10px + 2.5vh);
   font-weight: bold;
   font-family: monospace;
   color: #f0ebce;
