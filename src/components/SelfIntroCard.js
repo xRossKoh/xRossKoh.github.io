@@ -8,7 +8,7 @@ import "./SelfIntroCard.css";
 export default function SelfIntroCard() {
   return (
     <div className="SelfIntroCard">
-      <div className="personal-info-section">
+      <div className="SelfIntroCard__personal-info-section">
         <p>
           <FontAwesomeIcon icon={faPhone} /> +65 9171 8462
         </p>

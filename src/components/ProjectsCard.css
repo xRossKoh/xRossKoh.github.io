@@ -40,24 +40,24 @@
   align-items: left;
 }
 
-#project-title {
+.ProjectsCard__title {
   font-size: calc(15px + 0.5vw);
   font-weight: bolder;
   margin: 0;
 }
 
-#project-subtitle {
+.ProjectsCard__subtitle {
   font-weight: none;
   font-size: calc(12.5px + 0.5vw);
   margin: 0;
 }
 
-#project-date {
+.ProjectsCard__date {
   font-size: calc(12.5px + 0.5vw);
   margin: 0;
 }
 
-#project-desc {
+.ProjectsCard__desc {
   font-size: calc(10px + 0.5vw);
   margin: 0;
   text-align: justify;

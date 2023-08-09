@@ -13,8 +13,8 @@ export default function Resume() {
     <div>
       <NavBar />
       <div className="Resume">
-        <div id="main-body">
-          <h1 id="title">Resume</h1>
+        <div className="Resume__main-body">
+          <h1 className="Resume__title">Resume</h1>
           <SelfIntroCard />
           <ExperienceCard />
           <EducationCard />

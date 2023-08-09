@@ -11,12 +11,12 @@
   width: 100%;
 }
 
-.ExperienceCard__title {
-  font-size: calc(18px + 0.5vw);
-}
-
-.ExperienceCard--with-icon {
+.ExperienceCard__title-container {
   display: flex;
   align-items: center;
   gap: 0.8vw;
+}
+
+.ExperienceCard__title-container__title {
+  font-size: calc(18px + 0.5vw);
 }

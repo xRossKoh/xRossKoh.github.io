@@ -11,12 +11,12 @@
   width: 100%;
 }
 
-.EducationCard__title {
-  font-size: calc(18px + 0.5vw);
-}
-
-.EducationCard--with-icon {
+.EducationCard__title-container {
   display: flex;
   align-items: center;
   gap: 0.8vw;
+}
+
+.EducationCard__title-container__title {
+  font-size: calc(18px + 0.5vw);
 }

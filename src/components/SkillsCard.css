@@ -11,17 +11,17 @@
   width: 100%;
 }
 
-.SkillsCard__title {
+.SkillsCard__title-container__title {
   font-size: calc(18px + 0.5vw);
 }
 
-#skills-card__title {
+.SkillsCard__title-container {
   display: flex;
   align-items: center;
   gap: 0.8vw;
 }
 
-.grid-container {
+.SkillsCard__grid-container {
   display: grid;
   align-self: center;
   grid-template-columns: repeat(3, 1fr);
