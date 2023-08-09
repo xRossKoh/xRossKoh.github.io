@@ -27,16 +27,15 @@ export default function NavBar() {
   return (
     <div>
       <nav className="NavBar">
-        <h1 className="NavBar__title">Kenneth Koh</h1>
+        <h1 className="NavBar__title" onClick={home}>
+          Kenneth Koh
+        </h1>
         <FontAwesomeIcon
           className="NavBar__bars_button"
           icon={faBars}
           size="2x"
         />
         <div className="NavBar__buttons__container">
-          <button class="NavBar__button" onClick={home}>
-            Home
-          </button>
           <button class="NavBar__button" onClick={resume}>
             Resume
           </button>

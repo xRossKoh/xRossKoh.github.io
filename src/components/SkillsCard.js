@@ -30,18 +30,18 @@ export default function SkillsCard() {
           level="three"
         />
         <SkillsProgressBar
+          alt="ReactJS"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          level="three"
+        />
+        <SkillsProgressBar
           alt="Javascript"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
           level="two"
         />
         <SkillsProgressBar
-          alt="C"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-          level="two"
-        />
-        <SkillsProgressBar
-          alt="MySQL"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+          alt="Typescript"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           level="two"
         />
         <SkillsProgressBar
@@ -55,18 +55,18 @@ export default function SkillsCard() {
           level="two"
         />
         <SkillsProgressBar
-          alt="ReactJS"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          alt="C"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+          level="two"
+        />
+        <SkillsProgressBar
+          alt="MySQL"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
           level="two"
         />
         <SkillsProgressBar
           alt="Java"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-          level="one"
-        />
-        <SkillsProgressBar
-          alt="Typescript"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           level="one"
         />
         <SkillsProgressBar
