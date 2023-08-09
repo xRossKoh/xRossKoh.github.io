@@ -21,9 +21,7 @@ export default function ProjectsCard(props) {
             <p className="ProjectsCard__title">{props.title}</p>
             <p className="ProjectsCard__subtitle">{props.subtitle}</p>
           </div>
-          <div className="ProjectsCard__header__date">
-            <p className="ProjectsCard__date">{props.date}</p>
-          </div>
+          <p className="ProjectsCard__date">{props.date}</p>
         </div>
         <div className="ProjectsCard__desc">{props.desc}</div>
       </button>

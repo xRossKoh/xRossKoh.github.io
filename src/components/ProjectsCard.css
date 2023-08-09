@@ -21,18 +21,21 @@
   display: flex;
   align-items: center;
   margin-bottom: 2vh;
+  justify-content: space-between;
+
+  @media screen and (max-width: 750px) {
+    flex-direction: column;
+    gap: 1vh;
+    margin-bottom: 1vh;
+  }
 }
 
 .ProjectsCard__header__desc {
   text-align: left;
-  float: left;
-  width: 65%;
-}
 
-.ProjectsCard__header__date {
-  text-align: right;
-  float: right;
-  width: 35%;
+  @media screen and (max-width: 750px) {
+    text-align: center;
+  }
 }
 
 .ProjectsCard-body {
