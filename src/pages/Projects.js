@@ -73,7 +73,7 @@ export default function Projects() {
 
   return (
     <div>
-      <NavBar />
+      <NavBar page="Projects" />
       <div className="Projects">
         <div className="Projects__main-body">
           <h1 className="Projects__title">Projects</h1>

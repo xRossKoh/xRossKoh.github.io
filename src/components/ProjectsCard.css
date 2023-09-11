@@ -11,7 +11,8 @@
   transition: all 0.2s ease;
 }
 
-.ProjectsCard__button:hover {
+.ProjectsCard__button:hover,
+.ProjectsCard__button:active {
   color: #282c34;
   border: 2px solid #f2efe0;
   background-color: #f2efe0;

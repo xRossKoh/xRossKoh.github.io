@@ -8,6 +8,37 @@ import "./SkillsCard.css";
 
 export default function SkillsCard() {
   const skills = [
+    // Proficient
+    {
+      alt: "ReactJS",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      level: "three",
+    },
+    {
+      alt: "Typescript",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      level: "three",
+    },
+    {
+      alt: "Javascript",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      level: "three",
+    },
+    {
+      alt: "HTML5",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      level: "three",
+    },
+    {
+      alt: "CSS",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      level: "three",
+    },
+    {
+      alt: "Git",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      level: "three",
+    },
     {
       alt: "Cpp",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
@@ -18,39 +49,16 @@ export default function SkillsCard() {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       level: "three",
     },
+
+    // Novice
     {
-      alt: "Git",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-      level: "three",
-    },
-    {
-      alt: "ReactJS",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      level: "three",
-    },
-    {
-      alt: "Javascript",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      alt: "Next.js",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       level: "two",
     },
     {
-      alt: "Typescript",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      level: "two",
-    },
-    {
-      alt: "HTML5",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      level: "two",
-    },
-    {
-      alt: "CSS",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      level: "two",
-    },
-    {
-      alt: "C",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+      alt: "Redux Toolkit",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
       level: "two",
     },
     {
@@ -58,6 +66,13 @@ export default function SkillsCard() {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       level: "two",
     },
+    {
+      alt: "C",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+      level: "two",
+    },
+
+    // Beginner
     {
       alt: "Java",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",

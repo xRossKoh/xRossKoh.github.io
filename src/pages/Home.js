@@ -36,19 +36,19 @@ export default function Home() {
     <div className="Home">
       <header className="Home__header">
         <img
-          class="Home__portrait"
+          className="Home__portrait"
           alt="Self-portrait"
           src={selfPortrait}
         ></img>
         <p id="name">{text}</p>
-        <button class="Home__button" onClick={resume}>
+        <button className="Home__button" onClick={resume}>
           Resume
         </button>
-        <button class="Home__button" onClick={projects}>
+        <button className="Home__button" onClick={projects}>
           Projects
         </button>
         <button
-          class="Home__button"
+          className="Home__button"
           role="link"
           onClick={() =>
             openNewTab(
@@ -59,7 +59,7 @@ export default function Home() {
           LinkedIn
         </button>
         <button
-          class="Home__button"
+          className="Home__button"
           role="link"
           onClick={() => openNewTab("https://github.com/xRossKoh")}
         >

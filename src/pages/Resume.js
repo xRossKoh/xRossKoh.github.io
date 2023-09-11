@@ -11,7 +11,7 @@ import "./Resume.css";
 export default function Resume() {
   return (
     <div>
-      <NavBar />
+      <NavBar page="Resume" />
       <div className="Resume">
         <div className="Resume__main-body">
           <h1 className="Resume__title">Resume</h1>
