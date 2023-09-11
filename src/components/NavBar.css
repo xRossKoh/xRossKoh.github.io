@@ -19,6 +19,10 @@
   }
 }
 
+.NavBar__xmark_button {
+  align-self: end;
+}
+
 .NavBar__buttons__container {
   display: flex;
   justify-content: space-evenly;
@@ -38,7 +42,31 @@
   transition: all 0.2s ease;
 }
 
-.NavBar__button:hover {
+.NavBar__button:hover,
+.NavBar__button:active {
   text-decoration: underline;
   color: #f0ebce;
+}
+
+.NavBar__disabled-button {
+  background-color: transparent;
+  text-decoration: underline;
+  color: #f0ebce;
+  border: none;
+  font-size: calc(4px + 2.5vh);
+  font-family: monospace;
+}
+
+.NavBar__drawer__button-container {
+  background-color: #373c47;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 100vh;
+  row-gap: 2.5vh;
+  padding: 2vh 2vw;
+}
+
+.MuiDrawer-paperAnchorRight {
+  width: 40vw;
 }

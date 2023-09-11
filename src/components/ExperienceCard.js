@@ -9,13 +9,22 @@ import Tab from "./Tab";
 export default function ExperienceCard() {
   const experiences = [
     {
+      title: "Teaching Assistant",
+      subtitle: ["National University of Singapore (NUS), Singapore"],
+      date: "Aug 2023 - Present",
+      desc: [
+        "Taught tutorial lessons and graded coding assignments for a class of 19 undergraduate students for a course on computer graphics.",
+      ],
+    },
+    {
       title: "Full-Stack Engineer Intern",
       subtitle: [
         "Government of Singapore Investment Coorporation (GIC), Singapore",
       ],
       date: "July 2023 - Present",
       desc: [
-        "Migration of existing web application's user interface to a standardised design using Next.js and Typescript.",
+        "Migrated existing in-house web application's user interface to a standardised design using Next.js and Typescript.",
+        "Implemented new front-end features for web application, enhancing functionality and user experience.",
       ],
     },
     {
