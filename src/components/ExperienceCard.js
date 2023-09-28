@@ -19,7 +19,7 @@ export default function ExperienceCard() {
     {
       title: "Full-Stack Engineer Intern",
       subtitle: [
-        "Government of Singapore Investment Coorporation (GIC), Singapore",
+        "Government of Singapore Investment Corporation (GIC), Singapore",
       ],
       date: "July 2023 - Present",
       desc: [
