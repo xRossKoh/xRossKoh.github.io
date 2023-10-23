@@ -25,6 +25,7 @@ export default function ExperienceCard() {
       desc: [
         "Migrated existing in-house web application's user interface to a standardised design using Next.js and Typescript.",
         "Implemented new front-end features for web application, enhancing functionality and user experience.",
+        "Developed application programming interface (API) endpoints for data fetching and processing for consumption on web application.",
       ],
     },
     {
