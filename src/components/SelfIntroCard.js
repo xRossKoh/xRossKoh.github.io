@@ -1,9 +1,15 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCity, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCity,
+  faEnvelope,
+  faFile,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "./SelfIntroCard.css";
+import resume from "../files/Koh_Meng_Kiat_Kenneth_new.pdf";
 
 export default function SelfIntroCard() {
   return (
@@ -38,7 +44,11 @@ export default function SelfIntroCard() {
         <p>
           I am currently looking for part-time/full-time internships or
           positions involving software engineering in any industry. Please
-          contact me with opportunities at kkmk1999@gmail.com.
+          download a copy of my resume{" "}
+          <a href={resume} download="Koh_Meng_Kiat_Kenneth_Resume.pdf">
+            here
+          </a>{" "}
+          and contact me with related opportunities.
         </p>
       </div>
     </div>

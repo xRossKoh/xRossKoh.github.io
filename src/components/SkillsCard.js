@@ -62,8 +62,18 @@ export default function SkillsCard() {
       level: "two",
     },
     {
-      alt: "MySQL",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      alt: "Amazon Web Services",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+      level: "two",
+    },
+    {
+      alt: "PostgreSQL",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      level: "two",
+    },
+    {
+      alt: "Node.js",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       level: "two",
     },
     {
