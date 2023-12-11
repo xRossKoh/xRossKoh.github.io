@@ -1,12 +1,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCity,
-  faEnvelope,
-  faFile,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCity, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 import "./SelfIntroCard.css";
 import resume from "../files/Koh_Meng_Kiat_Kenneth_new.pdf";
