@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCity, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 import "./SelfIntroCard.css";
-import resume from "../files/Koh_Meng_Kiat_Kenneth_new.pdf";
+import resume from "../files/Koh_Meng_Kiat_Kenneth.pdf";
 
 export default function SelfIntroCard() {
   return (
