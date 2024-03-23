@@ -63,7 +63,7 @@ export default function SkillsCard() {
     },
     {
       alt: "Amazon Web Services",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
       level: "two",
     },
     {
@@ -73,7 +73,7 @@ export default function SkillsCard() {
     },
     {
       alt: "Node.js",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
       level: "two",
     },
     {
