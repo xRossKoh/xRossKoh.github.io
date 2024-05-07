@@ -7,6 +7,12 @@ import NavBar from "../components/NavBar";
 export default function Projects() {
   const projects = [
     {
+      title: "Personal Portfolio Website",
+      date: "May 2023 - Jun 2023",
+      url: "https://github.com/xRossKoh/xRossKoh.github.io",
+      desc: "Designed, coded and deployed a website to showcase my portfolio using React, Node.js, JavaScript and GitHub.",
+    },
+    {
       title: "Laser Tag",
       subtitle: "Computer Engineering Capstone Project",
       date: "Jan 2023 - Apr 2023",

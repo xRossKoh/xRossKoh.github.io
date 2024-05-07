@@ -13,12 +13,14 @@ export default function ExperienceCard() {
       subtitle: [
         "Government of Singapore Investment Corporation (GIC), Singapore",
       ],
-      date: "July 2023 - Present",
+      date: "Jul 2023 - Apr 2024",
       desc: [
-        "Migrated existing in-house web application's user interface to a standardised design",
-        "Implemented and maintained front-end features for the web application using Next.js, React Redux, Node.js and TypeScript, enhancing functionality and user experience.",
-        "Developed RESTful API endpoints on AWS using API Gateway, Lambda, Node.js and Python, ensuring seamless communication between the web application’s front-end and backend.",
-        "Integrated data pipelines on AWS using DynamoDB, S3 and Redshift, optimizing data storage and retrieval.",
+        "Performed migration of 2 full-stack features of an internal web application to a standardised user interface design.",
+        "Planned for and delivered 5 full-stack features to enhance functionality and user experience.",
+        "Collaborated in a team of 6 to diagnose and fix 30+ functionality issues across the front and backend.",
+        "Engineered 7 API endpoints for data consumption on the front-end and server-side data processing and computation.",
+        "Constructed 20+ queries for data storage and retrieval to integrate and optimize data pipelines.",
+        "Suggested 3 improvements to current implementations or API design to increase efficiency and performance.",
       ],
     },
     {
@@ -32,11 +34,11 @@ export default function ExperienceCard() {
     {
       title: "Full-Stack Engineer Intern",
       subtitle: ["Superton, Shenzhen, Guangdong, China"],
-      date: "Dec 2021 - July 2022",
+      date: "Dec 2021 - Jul 2022",
       desc: [
-        "Conducted research on dropshipping processes and implemented the service on the company website using Vue.js and JavaScript, bringing in 2 online stores.",
-        "Identified and integrated key web elements to improve the Search Engine Optimization (SEO) of the company website, improving the click-through rate on Google by 20% in 3 months.",
-        "Enhanced the codebase quality and reduced its size by 10% by incorporating reusable elements.",
+        "Created 10+ reusable front-end components for the company website to improve code quality and enforce best practices.",
+        "Assisted the senior developer in designing and implementing 4 full-stack features to expand service offerings.",
+        "Crafted 2 front-end elements for Search Engine Optimization (SEO), improving the click-through rate on Google by approximately 20% in 3 months.",
       ],
     },
   ];
